@@ -1,0 +1,9 @@
+name: AntiHackDetector
+version: 1.0
+main: com.example.antihackdetector.AntiHackDetector
+api-version: 1.20
+commands:
+  addException:
+    description: "Fügt einen Spieler zur Ausnahmeliste hinzu."
+    usage: "/addException <Spielername>"
+    permission: "antihackdetector.admin"
